@@ -1,0 +1,209 @@
+body{
+  background-color: skyblue;
+  font-size: 0;
+}
+
+
+.sai{
+  height: 300px;
+  position: relative;
+  left: 120px;
+  top: -40px;
+ 
+}
+.cake{
+  animation: moving 2s infinite;
+  position: relative;
+  top:140px;
+  left:-20px;
+}
+
+@keyframes moving{
+  25%{
+    height:100px ;
+    position: relative;
+  top:140px;
+  }
+  30%{
+    height:130px ;
+    position: relative;
+  top:140px;
+  }
+  40%{
+    height:100px;
+    position: relative;
+  top:140px;
+  }
+50%{
+  height: 130px;
+  position: relative;
+  top:140px;
+}
+  
+60%{
+  height: 100px;
+  position: relative;
+  top:140px;
+
+}  
+70%{
+    height:130px ;
+    position: relative;
+  top:140px;
+  }
+
+80%{
+    height:100px ;
+    position: relative;
+  top:140px;
+  }
+  90%{
+    height:130px ;
+    position: relative;
+  top:140px;
+  }
+  100%{
+    height:100px ;
+    position: relative;
+  top:140px;
+  }
+}
+
+
+.whishes{
+color:black;
+position: relative;
+top:220px;
+
+font-size: 30px
+  
+}
+.credit{
+  font-size: 15px;
+  color:black;
+  position: relative;
+  top :200px;
+  left:200px;
+  width: 150px;
+}
+.song{
+ position:relative;
+ top: 200px;
+ height: 20px;
+ width: 100px;
+}
+.ufo{
+  position:relative;
+  bottom: 650px;
+  height:50px;
+  left:50%;
+  animation : n 6s infinite;
+}
+
+@keyframes n{
+  10%{
+    position:relative;
+  bottom: 650px;
+  height:50px;
+  left:50%;
+  }
+  50%{
+    position:relative;
+  bottom: 300px;
+  height:50px;
+  left:50%;
+  }
+  100%{
+    position:relative;
+  bottom: 300px;
+  height:50px;
+  left:50%;
+  }
+}
+
+.a{
+  position: relative;
+  bottom:150px;
+  left: 7.5pc;
+  animation: d 6s infinite ;
+  font-size: 0px;
+}
+
+@keyframes d{
+ 10%{
+     position: relative;
+  bottom:150px;
+  left: 7.5pc;
+font-size: 0px;
+ } 
+  50%{
+    
+     position: relative;
+  bottom:150px;
+  left: 7.5pc;
+font-size: 0px;
+  }
+  
+100%{
+  
+  
+     position: relative;
+  bottom:150px;
+  left: 7.5pc;
+font-size: 20px;
+}  
+}
+.hb{
+  font-size:15px;
+  position: relative;
+  animation: d 4s infinite ;
+  font-style: bold;
+  background-color: red;
+  height: 18px;
+  width: 145px;
+}
+
+@keyframes d{
+  10%{
+    left:0px;
+    top: 0px;
+  }
+20%{
+  left:235px;
+    top: 150px;
+}
+
+30%{
+  left:0px;
+    top: 250px;
+}
+40%{
+  left:235px;
+    top: 350px;
+}
+50%{
+  left:100px;
+    top: 500.1px;
+}
+60%{
+  left:100px;
+    top: 500.2px;
+}70%{
+  left:100px;
+    top: 500.3px;
+}
+80%{
+  left:100px;
+    top: 500.4px;
+}90%{
+  left:100px;
+    top: 500.5px;
+}
+100%{
+  left:100px;
+    top: 500.6px;
+}
+}
+
+
+
